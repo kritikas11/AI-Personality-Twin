@@ -6,7 +6,7 @@ textblob
 nltk
 
 # Computer Vision
-opencv-python
+opencv-python-headless
 deepface
 tensorflow==2.15.0
 
