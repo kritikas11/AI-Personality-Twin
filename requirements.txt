@@ -1,5 +1,5 @@
 # Core Framework
-streamlit==1.28.0
+streamlit 
 
 # NLP Libraries
 textblob
@@ -8,7 +8,7 @@ nltk
 # Computer Vision
 opencv-python
 deepface
-tensorflow
+tensorflow==2.15.0
 
 # Image Processing
 Pillow
