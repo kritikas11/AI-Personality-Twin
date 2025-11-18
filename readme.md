@@ -15,27 +15,7 @@ Computer Vision: OpenCV + DeepFace
 Avatar: DiceBear (free, no API key needed)
 Database: SQLite
 Language: Python 3.9+
-📁 Project Structure
-ai-twin-env/
-├── backend/
-│   ├── avatar/
-│   │   └── generator.py          # DiceBear avatar generation
-│   ├── db/
-│   │   ├── database.py           # SQLite database operations
-│   │   └── schema.sql            # Database schema
-│   ├── nlp/
-│   │   ├── models.py             # Personality analysis models
-│   │   └── pipeline.py           # NLP processing pipeline
-│   ├── utils/
-│   │   ├── helpers.py            # Utility functions
-│   │   └── storage.py            # File storage utilities
-│   └── vision/
-│       └── emotion_detector.py   # Emotion detection
-├── frontend/
-│   └── app.py                    # Streamlit UI (alternative structure)
-├── app.py                        # Main Streamlit application
-├── requirements.txt              # Python dependencies
-└── README.md                     # This file
+
 🚀 Installation & Setup
 Prerequisites
 Python 3.9 or higher
@@ -49,20 +29,6 @@ bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-Step 3: Install Dependencies
-bash
-pip install -r requirements.txt
-Step 4: Download NLTK Data (Required for TextBlob)
-python
-python -c "import nltk; nltk.download('brown'); nltk.download('punkt')"
-Step 5: Run the Application
-bash
-streamlit run app.py
-The app will open in your browser at http://localhost:8501
 
 📖 How to Use
 Enter Your Name: Provide your name in the input field
@@ -173,17 +139,6 @@ CREATE TABLE profiles (
  Social sharing features
 📝 License
 This project is open-source and available under the MIT License.
-
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-👨‍💻 Author
-Your Name - Your GitHub
 
 🙏 Acknowledgments
 Streamlit - Amazing web framework
