@@ -7,8 +7,10 @@ nltk
 
 # Computer Vision
 opencv-python-headless
-deepface
+deepface==0.0.90
 tensorflow==2.15.0
+tf-keras
+pandas
 
 # Image Processing
 Pillow
