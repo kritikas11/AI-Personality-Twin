@@ -1,0 +1,19 @@
+# Core Framework
+streamlit==1.28.0
+
+# NLP Libraries
+textblob
+nltk
+
+# Computer Vision
+opencv-python
+deepface
+tensorflow
+
+# Image Processing
+Pillow
+numpy
+
+# Utilities
+requests
+python-dateutil
