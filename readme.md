@@ -146,11 +146,5 @@ TextBlob - Simple NLP library
 DeepFace - Facial analysis framework
 DiceBear - Free avatar generation API
 OpenCV - Computer vision library
-📞 Support
-If you have any questions or issues, please:
 
-Check the troubleshooting section
-Search existing GitHub issues
-Create a new issue with detailed description
-Made with ❤️ using Python and AI
 
