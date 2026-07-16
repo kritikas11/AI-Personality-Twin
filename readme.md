@@ -1,16 +1,16 @@
-# 🎭 AI Personality Twin
+#  AI Personality Twin
 
 An AI-powered application that generates personality profiles by analyzing user-written descriptions and optional facial emotions from uploaded images.
 
 Built using **Python, Streamlit, NLP (TextBlob), DeepFace, OpenCV, and SQLite**.
 
-## 🚀 Live Demo
+##  Live Demo
 
 **Streamlit App:** *https://ai-personality-twin.streamlit.app/*
 
 ---
 
-## ✨ Features
+##  Features
 
 - Personality trait extraction using NLP
 - Sentiment analysis from user descriptions
@@ -22,7 +22,7 @@ Built using **Python, Streamlit, NLP (TextBlob), DeepFace, OpenCV, and SQLite**.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -35,7 +35,7 @@ Built using **Python, Streamlit, NLP (TextBlob), DeepFace, OpenCV, and SQLite**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 AI-Personality-Twin/
@@ -55,7 +55,7 @@ AI-Personality-Twin/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -98,7 +98,7 @@ streamlit run app.py
 
 ---
 
-## 🎯 Example
+##  Example
 
 ### User Input
 
@@ -120,7 +120,7 @@ If an image is uploaded, the application also predicts the dominant facial emoti
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 1. User enters a text description.
 2. TextBlob performs sentiment analysis.
@@ -131,7 +131,7 @@ If an image is uploaded, the application also predicts the dominant facial emoti
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - More advanced personality modelling
 - PDF report export
